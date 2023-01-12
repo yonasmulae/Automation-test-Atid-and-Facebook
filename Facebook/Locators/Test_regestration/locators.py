@@ -1,0 +1,45 @@
+
+
+class Regestration_locator:
+    Website = "https://www.facebook.com/"
+    Create_new_password = "yonasamamare7"
+    Create_new_account = "//*[text()='Create New Account']"
+    First_name_selector = "firstname"
+    Last_name_selector = "lastname"
+    Email_selector = "reg_email__"
+    Re_enter_user_name = "reg_email_confirmation__"
+    First_name = "yonas"
+    Last_name = "a"
+    Email = "qataster67@gmail.com"
+    Re_enter_email = "qataster67@gmail.com"
+    Password = "yonasamare7"
+    Birth_date_month = "oct"
+    Birth_date_date = "17"
+    Birth_date_year = "2000"
+    New_password_selector = "reg_passwd__"
+    Birth_date_date_selector = "birthday_day"
+    Birth_date_date_17 = "/html[1]/body[1]/div[5]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[5]/div[2]/span[1]/span[1]/select[2]/option[17]"
+    Birth_date_month_selecter = "birthday_month"
+    Birth_date_month_October = "//option[contains(text(),'Oct')]"
+    Birth_date_year_selector = "birthday_year"
+    Birth_date_year_2000 = "//option[contains(text(),'2000')]"
+    Gender_male = "//label[contains(text(),'Male')]"
+    Sign_up_button = "websubmit"
+    Empty_first_name = ""
+    Empty_last_name = ""
+    Empty_email = ""
+    Empty_re_enter_email = ""
+    Empty_password = ""
+    Empty_birt_date_date = ""
+    Empty_birth_date_month = ""
+    Empty_birth_date_year = ""
+    Css_selector_login_button = "#u_0_5_1y"
+    Selector_email = "email"
+    Selector_password = "pass"
+    Selector_login = "login"
+    False_password = "%%12"
+
+
+
+
+
