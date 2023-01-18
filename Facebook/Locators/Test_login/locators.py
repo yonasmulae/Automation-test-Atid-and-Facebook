@@ -9,7 +9,7 @@ class Login_locator:
     Password_less_than_4_text = "123"
     Password_empty_text = ""
     User_name_empty_text = ""
-    assert_locator = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/div[1]"
+    assert_locator = "//span[contains(text(),'QA Tester Yonas')]"
     assert_locator_2 = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/div[1]/div[1]/div[2]/span[1]"
     assert_locator_3 = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/span[1]/div[1]"
 

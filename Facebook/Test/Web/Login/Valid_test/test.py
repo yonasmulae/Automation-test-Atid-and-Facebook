@@ -20,7 +20,7 @@ class Test(BaseTest, Login_locator):
         password.send_keys(self.Password_text)
         time.sleep(3)
         driver.find_element(By.XPATH, self.selector_login_button).click()
-        login = driver.find_element(By.XPATH, self.assert_locator_login).text
-        assert login == "QA Tester"
+        login = driver.find_element(By.XPATH, self.assert_locator).text
+        assert login == "QA Tester Yonas"
         super().tear_down()
         

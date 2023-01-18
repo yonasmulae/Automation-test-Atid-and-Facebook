@@ -1,5 +1,8 @@
 import time
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
+
 from Atidstore.Locators.Test_store.store_locators import store_locators
 from Atidstore.Test.BaseTest.Base import BaseTest
 
@@ -17,6 +20,10 @@ class Test(BaseTest, store_locators):
     def test_check_if_there_is_products_in_store_page(self):
         driver = super().init()
         driver.find_element(By.XPATH, self.Store_page).click()
+        time.sleep(3)
+        driver.execute_script(self.Scroll_down_1)
+        time.sleep(2)
+        driver.execute_script(self.Scroll_down_2)
         time.sleep(2)
         store_page = driver.find_element(By.XPATH, self.Store_page).text
         assert store_page == 'STORE'
